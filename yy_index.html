@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no" name="format-detection">
+<title>上海三爱中医门诊</title>
+<link type="text/css" rel="stylesheet" href="css/base.css">
+<link type="text/css" rel="stylesheet" href="css/index.css">
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/width_100.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+(function(doc, win) {//为了解决安卓加载前乱码、要提前加载下面代码
+	var html = doc.getElementsByTagName("html")[0],
+		reEvt = "orientationchange" in win ? "orientationchange" : "resize",
+		reFontSize = function() {
+			var clientW = doc.documentElement.clientWidth || doc.body.clientWidth;
+			if(!clientW) {
+				return;
+			}
+			html.style.fontSize = 100 * (clientW / 375) + "px";
+	}
+	win.addEventListener(reEvt, reFontSize);
+	doc.addEventListener("DOMContentLoaded", reFontSize);
+})(document, window);
+</script>
+
+</head>
+<body id="body" style="visibility:hidden;"><!--  解决安卓加载前乱码  -->
+	<div class="addressyy clearfix pt20">
+        <span class="tc fl ml12">
+        	<h3 class="f13 font_ht ml10 mr10 mt25">上海市三爱中医门诊部</h3>
+            <h4 class="f13 font_ht mt3 txh ml10 mr10">地址：建国东路320号</h4>
+        </span>
+        <span class="tc fr mr12">
+        	<h3 class="f13 font_ht ml10 mr10 mt25">上海市琉璃光中医门诊部</h3>
+            <h4 class="f13 font_ht mt3 txh ml10 mr10">地址：浦电路114号</h4>
+        </span>
+    </div>
+	<!-- end -->
+	<!--<div class="searchbox clearfix mt15 ml12 mr12 pr">
+        <input class="search_inpl pa bor_none thD" type="submit" value="搜索">
+        <input class="search_inpr fl bor_none" type="text" value="" placeholder="搜索大夫">
+    </div>-->
+	<!-- 搜索 end    -->
+    <div class="datebox w100 mt15 pb15 datebox_0b" style="display:none;">
+    	<div class="pt10">
+            <p class="ymonth tc fb clearfix"><span id="ymonth_y"></span><span>年</span><span id="ymonth_m"></span><span>月</span><span id="test1" class="obtaingd dis_inlin_biock thD ml5"></span></p>
+        </div>
+    	<div class="riqison clearfix mt10">
+            <span class="fl">
+            	<p class="f15 fb font_ht mb10">日</p>
+                <em class="five_p f14 font_ht tc"></em><!--emxz-->
+            </span>
+            <span class="fl">
+            	<p class="f15 fb font_ht mb10">一</p>
+                <em class="six_p f14 font_ht tc"></em>
+            </span>
+            <span class="fl">
+            	<p class="f15 fb font_ht mb10">二</p>
+                <em class="day_p f14 font_ht tc"></em>
+            </span>
+            <span class="fl">
+            	<p class="f15 fb font_ht mb10">三</p>
+                <em class="one_p f14 font_ht tc"></em>
+            </span>
+            <span class="fl">
+            	<p class="f15 fb font_ht mb10">四</p>
+                <em class="two_p f14 font_ht tc"></em>
+            </span>
+            <span class="fl">
+            	<p class="f15 fb font_ht mb10">五</p>
+                <em class="three_p f14 font_ht tc"></em>
+            </span>
+            <span class="fl">
+            	<p class="f15 fb font_ht mb10">六</p>
+                <em class="four_p f14 font_ht tc"></em>
+            </span>
+        </div>
+    </div>
+    <!-- end -->
+    <div class="ml15 mr15 mb25">
+    	<div class="doctor datebox mt10 p10 clearfix">
+        	<a class="doctor_a fl" href="#"><img src="images/doctor.jpg"></a>
+            <div class="doctor_div fr">
+            	<a class="f15 font_ht fb dis_biock" href="#">张厚杰</a>
+                <p class="doctorjs f13 font_ht mt5">擅长：外感热病、咳喘痰鸣、内伤脾胃、风湿痹痛、急症阑尾、肝胆胰腺、急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺</p>
+                <div class="clearfix mt7 tr">
+                	<a class="listen_a dis_inlin_biock f12 colorfff tc bra5" href="#">典型医案</a>
+                    <a class="listen_a dis_inlin_biock f12 colorfff tc bra5 ml15" href="#">预<em class="pl10 dis_inlin_biock"></em>约</a>
+                </div>
+            </div>
+        </div>
+        <!-- 医生 end -->
+        <div class="doctor datebox mt10 p10 clearfix">
+        	<a class="doctor_a fl" href="#"><img src="images/doctor.jpg"></a>
+            <div class="doctor_div fr"><!---->
+            	<a class="dis_biock clearfix" href="#"><span class="fb fl mr10">张厚杰1</span><em class="f12 font_ht fl color333" style="line-height:.24rem;">主任医师</em></a>
+                <p class="doctorjs f13 font_ht">擅长：外感热病、咳喘痰鸣、内伤脾胃、风湿痹痛、急症阑尾、肝胆胰腺、急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺</p>
+                <div class="clearfix mt7 tr">
+                	<a class="listen_a dis_inlin_biock f12 colorfff tc bra5" href="#">医<em class="pl10 dis_inlin_biock"></em>案</a>
+                    <a class="listen_a dis_inlin_biock f12 colorfff tc bra5 ml15" href="#">预<em class="pl10 dis_inlin_biock"></em>约</a>
+                </div>
+            </div>
+        </div>
+        <!-- 医生 end -->
+        <div class="doctor datebox mt10 p10 clearfix">
+        	<a class="doctor_a fl" href="#"><img src="images/doctor.jpg"></a>
+            <div class="doctor_div fr">
+            	<h3 class="f15 font_ht fb">张厚杰</h3>
+                <p class="doctorjs f13 font_ht mt5">擅长：外感热病、咳喘痰鸣、内伤脾胃、风湿痹痛、急症阑尾、肝胆胰腺、急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺</p>
+                <div class="clearfix mt7 tr">
+                	<a class="listen_a dis_inlin_biock f12 colorfff tc bra5" href="#">典型医案</a>
+                    <a class="listen_a dis_inlin_biock f12 colorfff tc bra5 ml15" href="#">预<em class="pl10 dis_inlin_biock"></em>约</a>
+                </div>
+            </div>
+        </div>
+        <!-- 医生 end -->
+        <div class="doctor datebox mt10 p10 clearfix">
+        	<a class="doctor_a fl" href="#"><img src="images/doctor.jpg"></a>
+            <div class="doctor_div fr">
+            	<h3 class="f15 font_ht fb">张厚杰</h3>
+                <p class="doctorjs f13 font_ht mt5">擅长：外感热病、咳喘痰鸣、内伤脾胃、风湿痹痛、急症阑尾、肝胆胰腺、急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺</p>
+                <div class="clearfix mt7 tr">
+                	<a class="listen_a dis_inlin_biock f12 colorfff tc bra5" href="#">典型医案</a>
+                    <a class="listen_a dis_inlin_biock f12 colorfff tc bra5 ml15" href="#">预<em class="pl10 dis_inlin_biock"></em>约</a>
+                </div>
+            </div>
+        </div>
+        <!-- 医生 end -->
+        <div class="doctor datebox mt10 p10 clearfix">
+        	<a class="doctor_a fl" href="#"><img src="images/doctor.jpg"></a>
+            <div class="doctor_div fr">
+            	<h3 class="f15 font_ht fb">张厚杰</h3>
+                <p class="doctorjs f13 font_ht mt5">擅长：外感热病、咳喘痰鸣、内伤脾胃、风湿痹痛、急症阑尾、肝胆胰腺、急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺急症阑尾、肝胆胰腺</p>
+                <div class="clearfix mt7 tr">
+                	<a class="listen_a dis_inlin_biock f12 colorfff tc bra5" href="#">典型医案</a>
+                    <a class="listen_a dis_inlin_biock f12 colorfff tc bra5 ml15" href="#">预<em class="pl10 dis_inlin_biock"></em>约</a>
+                </div>
+            </div>
+        </div>
+        <!-- 医生 end -->
+    </div>
+    <!-- 医生介绍 end -->
+    
+<script src="laydate/laydate.js"></script>
+<script type="text/javascript">
+	setTimeout(showPage,1);//解决安卓加载前乱码
+	function showPage(){
+		document.getElementById("body").style.visibility='visible';	
+	}
+</script>
+
+
+
+
+<script>
+function fun_date1(a){        
+	var date1 = new Date(),        
+	time1=date1.getFullYear()+"-"+(date1.getMonth()+1)+"-"+date1.getDate();       
+	 var date2 = new Date(date1);        
+	 date2.setDate(date1.getDate() + a);        
+	 var time2 = date2.getDate();
+	 $(".five_p").html(time2);
+} 
+function fun_date2(a){        
+	var date1 = new Date(),        
+	time1=date1.getFullYear()+"-"+(date1.getMonth()+1)+"-"+date1.getDate();       
+	 var date2 = new Date(date1);        
+	 date2.setDate(date1.getDate() + a);        
+	 var time2 = date2.getDate(); 
+	 $(".six_p").html(time2);
+}
+function fun_date3(a){        
+	var date1 = new Date(),        
+	time1=date1.getFullYear()+"-"+(date1.getMonth()+1)+"-"+date1.getDate();       
+	 var date2 = new Date(date1);        
+	 date2.setDate(date1.getDate() + a);        
+	 var time2 = date2.getDate(); 
+	 $(".day_p").html(time2);
+} 
+function fun_date4(a){        
+	var date1 = new Date(),        
+	time1=date1.getFullYear()+"-"+(date1.getMonth()+1)+"-"+date1.getDate();       
+	 var date2 = new Date(date1);        
+	 date2.setDate(date1.getDate() + a);        
+	 var time2 = date2.getDate(); 
+	 $(".one_p").html(time2);
+}  
+function fun_date5(a){        
+	var date1 = new Date(),        
+	time1=date1.getFullYear()+"-"+(date1.getMonth()+1)+"-"+date1.getDate();       
+	 var date2 = new Date(date1);        
+	 date2.setDate(date1.getDate() + a);        
+	 var time2 = date2.getDate(); 
+	 $(".two_p").html(time2);
+} 
+function fun_date6(a){        
+	var date1 = new Date(),        
+	time1=date1.getFullYear()+"-"+(date1.getMonth()+1)+"-"+date1.getDate();       
+	 var date2 = new Date(date1);        
+	 date2.setDate(date1.getDate() + a);        
+	 var time2 = date2.getDate(); 
+	 $(".three_p").html(time2);
+}  
+function fun_date7(a){        
+	var date1 = new Date(),        
+	time1=date1.getFullYear()+"-"+(date1.getMonth()+1)+"-"+date1.getDate();       
+	 var date2 = new Date(date1);        
+	 date2.setDate(date1.getDate() + a);        
+	 var time2 = date2.getDate(); 
+	 $(".four_p").html(time2);
+} 
+fun_date1(0); 
+fun_date2(1);
+fun_date3(2); 
+fun_date4(3);
+fun_date5(4); 
+fun_date6(5);
+fun_date7(6); 
+</script>
+<script src="laydate/laydate.js"></script> <!-- 改成你的路径 -->
+<script>
+	
+	laydate.render({
+	elem: '#test1'
+	,theme: 'grid'
+	});
+</script>
+</body>
+</html>

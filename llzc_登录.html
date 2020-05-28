@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no" name="format-detection">
+<title>登录</title>
+<link type="text/css" rel="stylesheet" href="css/base.css">
+<link type="text/css" rel="stylesheet" href="css/logonRegister.css">
+<link type="text/css" rel="stylesheet" href="css/layer.css">
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/width_100.js"></script>
+<script type="text/javascript" src="js/layer.js"></script>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/logonRegister.js"></script>
+</head>
+<body>
+	<div class="chenggyy">
+        <img class="sanailogo dis_biock mAuto" src="images/sanailogo.jpg">
+        <h5 class="f20 tc mt20 font_ht fb">上海三爱中医</h5>
+        <p class="f12 tc mt5 font_ht">养生有道 滋补有方 食育健康</p>
+        <div class="pl35 pr35 pt10">
+        	<input id="logoNum" class="inputsr dis_biock mt15 f15 font_ht color666 pl15 w100 bor_none bra5" type="text" value="" placeholder="请输入手机号" maxlength="11" onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))">
+            <div class="clearfix mt15">
+            	<input id="logoyzm" class="inputsr fl f15 font_ht color666 pl15 bor_none bra5 mr10 inputyzm" type="text" value="" placeholder="验证码">
+                <button id="logo_but" class="inputyzm_but fl tc f15 font_ht colorfff curaor_pointer bor_none bra5" onclick="logoCount()">发送验证码</button>
+            </div>
+            <button class="inputsr dis_biock f18 font_ht colorfff w100 bor_none bra5 tc mt30 diatelybut" type="submit" onClick="return logoform()">立即登录</button>
+            <p class="f13 tc color999 mt15">未有帐号？立即<a class="colorff2f2f f13 ml5" href="#">注册</a></p>
+            
+        </div>
+        <!-- end -->
+    </div>
+	<!-- end -->
+    
+</body>
+</html>

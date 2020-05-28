@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta content="telephone=no" name="format-detection">
+<title>新增地址</title>
+<link type="text/css" rel="stylesheet" href="css/base.css">
+<link type="text/css" rel="stylesheet" href="css/index.css">
+<!--<link type="text/css" rel="stylesheet" href="css/layer.css">-->
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/width_100.js"></script>
+<!--<script type="text/javascript" src="js/layer.js"></script>-->
+<script type="text/javascript" src="js/base.js"></script>
+</head>
+<body>
+<div class="graybg pl15 pr15 pb30 pt15">
+	<div class="backgroundFFFFFF bra5 pl15 pt10 pr15 pb20 mb15">
+    	<div class="medicixz clearfix">
+        	<span class="consigneer fl f15 font_ht">收货人</span>
+            <input class="medicixz_inp fr bor_none f15 shdzname" type="text" placeholder="请输入收货人姓名">
+        </div>
+        <div class="medicixz clearfix">
+        	<span class="consigneer fl f15 font_ht">手机号</span>
+            <input class="medicixz_inp fr bor_none f15 shdzmobile" type="number" maxlength="11" placeholder="请输入收件人手机号">
+        </div>
+        <div class="medicixz clearfix">
+        	<span class="consigneer fl f15 font_ht">所在地区</span>
+            <input id="picker" class="medicixz_inp fr bor_none f15" type="text" placeholder="请选择省、市、区">
+        </div>
+        <div class="medicixz clearfix">
+        	<span class="consigneer fl f15 font_ht">详细地址</span>
+            <input class="medicixz_inp fr bor_none f15 shdetails" type="text" placeholder="请输入居住详细地址">
+        </div>
+        <label class="vingadd dis_biock pr mt20 pb20">
+            <input class="pa hidden" type="radio" name="addInp">
+            <i class="pa"></i>
+            <span class="fl ml25 f13">设为默认地址</span>
+        </label>
+    </div>
+    <!-- end -->
+    <div class="pt35 pb50 mt20">
+    	<button class="newlyadded f18 font_ht tc dis_biock mAuto colorfff bor_none">保存地址</button>
+    </div>
+</div>
+<script type="text/javascript" src="js/scripts/picker.min.js"></script>
+<script type="text/javascript" src="js/scripts/city.js"></script>
+<script type="text/javascript" src="js/scripts/index.js"></script>
+</body>
+</html>
